@@ -1,0 +1,22 @@
+extensionId: aspdotnetcoreTemplate # This needs to be unique
+buildType: docker
+language: C#
+creationType: template
+info:
+  provider: ".Net Foundation"
+  version: 0.0.1
+
+# Information to display in the UI 
+userInterface:
+    label: ASP.NET Core Template
+    description: ASP.NET Core WebApp in C#
+
+# Specify location of template code, either gitURL or location relative
+# to this .yaml file
+template:
+  giturl:
+  localpath: .
+
+# Additional details about the application
+application:
+  port: 80  # The port the application runs on
