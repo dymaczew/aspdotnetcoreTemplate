@@ -3,6 +3,7 @@
 Sample application template for use with [Microclimate](https://microclimate-dev2ops.github.io)
 
 ### Table of Contents
+* [Installation](#installation)
 * [Requirements](#requirements)
 * [Project contents](#project-contents)
 * [Run](#run)
@@ -10,6 +11,14 @@ Sample application template for use with [Microclimate](https://microclimate-dev
 * [Service descriptions](#service-descriptions)
 * [License](#license)
 * [Generator](#generator)
+
+#### Installation
+To install the template in your [Microclimate](https://microclimate-dev2ops.github.io) instance open the microclimate-workspace folder (located on the persistent volume), go to the .extenstions subdirectory and clone this repo there with the following command
+
+```console
+git clone https://github.com/dymaczew/aspdotnetcoreTemplate.git
+```
+After installation restart the microclimate portal pod.
 
 #### Project contents
 This application has been generated with the following capabilities and services, which are described in full in their respective sections below:
